@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+
+  <title>Welcome to DongKwang</title>
+  <meta charset="utf-8">
+  <style>
+  #grid {
+    border:0 solid ;
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    margin:0;
+  }
+  #title {
+    font-size : 50px;
+    text-align:center;
+    border-bottom:3px solid black;
+    margin:0;
+    padding-bottom: 30px;
+  }
+  a{
+    color:blue;
+    text-decoration: none;
+  }
+  #grid ol {
+    border-right :3px solid gray;
+    width : 200px;
+    margin : 0px;
+    padding : 20px;
+  }
+  body {
+    background-color: silver;
+    margin:0;
+  }
+  h2 {
+    font-size: 30px;
+    margin:0;
+    padding:8px;
+  }
+  </style>
+</head>
+
+<body>
+  <input type="button" value="night" onclick="
+
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  ">
+
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  ">
+<h1 id="title"><a href="1.welcome.html">DongKwang</a></h1>
+<div id="grid">
+  <ol>
+    <li>HDG LadderTray</li>
+    <li>HGI LadderTray</li>
+    <li>Perforated Tray</li>
+    <li>Solid Bottom Tray</li>
+  </ol>
+  <div>
+    <h2>HDG</h2>
+    <p> Text about HDG Laddertray... HDG is abbreviation of Hot Deep Galvanized.
+      Galvanize with zinc
+    </p>
+  </div>
+</div>
+</body>
+</html>
